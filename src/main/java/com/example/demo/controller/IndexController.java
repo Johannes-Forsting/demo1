@@ -10,7 +10,7 @@ public class IndexController {
 
     @RequestMapping("/")
     public String frontpage(){
-
+        int x = 0;
         return "index";
     }
 
