@@ -1,0 +1,47 @@
+.box{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 50px;
+    margin: 30px auto 30px auto;
+}
+
+.blue{
+    color:blue;
+}
+
+.red{
+    color:red;
+}
+
+.purple{
+    color:purple;
+}
+
+.orange{
+    color: orange;
+}
+
+.green{
+    color: green;
+}
+
+.brown{
+    color:saddlebrown;
+}
+
+.pink{
+    color: deeppink;
+}
+
+.yellow{
+    color: #ffe21b;
+}
+
+.black{
+    color: black;
+}
+
+.grey{
+    color: grey;
+}
