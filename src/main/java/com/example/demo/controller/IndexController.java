@@ -2,7 +2,9 @@ package com.example.demo.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.context.request.WebRequest;
 
 @Controller
 public class IndexController {
@@ -10,7 +12,6 @@ public class IndexController {
 
     @RequestMapping("/")
     public String frontpage(){
-        int x = 0;
         return "index";
     }
 
@@ -73,4 +74,24 @@ public class IndexController {
 
         return "page10";
     }
+
+    @PostMapping("/test")
+    public String test(WebRequest dataFromForm){
+        int number = Integer.parseInt(dataFromForm.getParameter("number"));
+        if(number==345){
+            return "page10";
+        }
+        return "index";
+    }
+
+    @GetMapping("/fejl")
+    public String fejl(){
+
+        return "fejl";
+    }
+
+
+
+
+
 }

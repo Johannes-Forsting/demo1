@@ -6,42 +6,48 @@
     margin: 30px auto 30px auto;
 }
 
-.blue{
+.links{
+    display: flex;
+    padding: 20px;
+    size:24px;
+}
+
+#blue{
     color:blue;
 }
 
-.red{
+#red{
     color:red;
 }
 
-.purple{
+#purple{
     color:purple;
 }
 
-.orange{
+#orange{
     color: orange;
 }
 
-.green{
+#green{
     color: green;
 }
 
-.brown{
+#brown{
     color:saddlebrown;
 }
 
-.pink{
+#pink{
     color: deeppink;
 }
 
-.yellow{
+#yellow{
     color: #ffe21b;
 }
 
-.black{
+#black{
     color: black;
 }
 
-.grey{
+#grey{
     color: grey;
 }
