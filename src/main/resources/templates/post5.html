@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Page9</title>
+    <link rel="stylesheet" th:href="@{stylesheet.css}" href="../static/stylesheet.css">
 </head>
 <body>
-    <h1>Tilykke! I er nået til enden. Indtast alle 4 svar for at finde skatten.</h1>
-    <form method="POST" action="test">
-        <div class="rows">
-            <input type="text" placeholder="Post 1" name="post1">
-            <input type="text" placeholder="Post 2" name="post2">
-            <input type="text" placeholder="Post 3" name="post3">
-            <input type="text" placeholder="Post 4" name="post4">
-        </div>
-        <input  type="submit">
-    </form>
+    <div class="box">
+        <h1>Tilykke! I er nået til enden. Indtast alle 4 svar for at finde skatten.</h1>
+        <form method="POST" action="test" class="forms">
+            <div class="rows">
+                <input type="text" placeholder="Post 1" name="post1" class="margin">
+                <input type="text" placeholder="Post 2" name="post2" class="margin">
+                <input type="text" placeholder="Post 3" name="post3" class="margin">
+                <input type="text" placeholder="Post 4" name="post4" class="margin">
+            </div>
+            <input  type="submit" class="margin">
+        </form>
+    </div>
 </body>
 </html>

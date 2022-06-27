@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Page5</title>
+    <link rel="stylesheet" th:href="@{stylesheet.css}" href="../static/stylesheet.css">
 </head>
 <body>
-<h1>Post 3</h1>
-<form METHOD="GET" action="/post3svar">
-    <input type="text"  name="answer">
-    <input type="submit">
-</form>
+    <div class="box">
+        <h1>Post 3</h1>
+        <form METHOD="GET" action="/post3svar" class="forms">
+            <input type="text"  name="answer" class="margin">
+            <input type="submit" class="margin">
+        </form>
+    </div>
 </body>
 </html>
