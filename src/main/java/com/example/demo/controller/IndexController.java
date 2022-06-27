@@ -95,7 +95,7 @@ public class IndexController {
         if (answer != null) {
             if (answer.equalsIgnoreCase(svar4) || answer.equalsIgnoreCase(svar4Buffer)) {
 
-                return "post3kort";
+                return "post4kort";
             }
         }
         return "index";
