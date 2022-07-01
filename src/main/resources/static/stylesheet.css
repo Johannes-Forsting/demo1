@@ -3,6 +3,7 @@ body{
     justify-content: center;
     background-image: url('https://imgur.com/pAytNrB.png');
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
     font-family: "Brush Script MT";
