@@ -145,6 +145,25 @@ public class IndexController {
         return "fejl";
     }
 
+    @GetMapping("/start")
+    public String start(){
+        return "start";
+    }
+
+    @GetMapping("/startsvar")
+    public String startsvar(WebRequest dataFromForm){
+        String start = dataFromForm.getParameter("start");
+        if(start == null){
+            return "index";
+        }
+        if(start.equalsIgnoreCase("bornholm")){
+            return "post2kort";
+        }
+        if(start.equalsIgnoreCase("bølshavn")){
+            return "post4kort";
+        }
+        return "index";
+    }
 
 
 
