@@ -48,6 +48,11 @@ h1{
     font-size: 40px;
     font-weight: bold;
     text-decoration: none;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+    border: solid;
+    margin: 4px;
 }
 
 .rows{

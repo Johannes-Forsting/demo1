@@ -18,8 +18,8 @@ public class IndexController {
     String svar3 = "6009";
     String svar3Buffer = "år 6009";
 
-    String svar4 = "test";
-    String svar4Buffer = "tester";
+    String svar4 = "cccpxv";
+    String svar4Buffer = "c c c p x v";
 
 
     @RequestMapping("/")
